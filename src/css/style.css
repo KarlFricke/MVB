@@ -1,0 +1,29 @@
+*{
+		margin: 0;
+		padding:0;
+
+
+}
+
+html{
+		height: 100%;
+
+}
+
+body{
+		height: 100%;
+		background: radial-gardient(white, rgb(236,236,236));
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+}
+
+
+
+div.sidebar {
+
+  position: -webkit-sticky;
+  position: sticky;
+
+
+}
