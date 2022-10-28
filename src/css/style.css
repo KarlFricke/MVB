@@ -27,3 +27,1137 @@ div.sidebar {
 
 
 }
+/*
+Theme Name: MVB 2017
+Template: virtue_premium
+Version: 1.0.49
+*/
+
+@import url("https://use.typekit.net/oof4dhb.css");
+
+h1, h2, h3, h4, h5  { 
+font-family: ff-meta-web-pro, sans-serif !important;
+font-style: italic!important; 
+}
+
+.nav-tabs{border-bottom:1px solid #00743c;}
+.nav-tabs>li>a:hover{border-color:#018e4a #018e4a #018e4a}
+.nav-tabs>li>a{color:#555;border-left:1px solid #efefef;border-right:1px solid #efefef;border-top:1px solid #efefef;border-radius:5px;}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{color:#018e4a;background-color:#fff;border:1px solid #018e4a;border-bottom-color:transparent;cursor:default;font-weight: 700;margin-left:0px;}
+.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:hover{border:1px solid #00743c}
+.tab-content{padding:0 10px;border-bottom:solid 1px #00743c;border-right:solid 1px #00743c;border-left:solid 1px #00743c;border-right-color:#00743c;border-bottom-color:#00743c;border-left-color:#00743c;}
+
+.footerclass  { 
+background: #018e4a!important;
+padding: 0px 0px 0px 0px!important;
+margin-top: auto !important;
+}
+.footercredits  { 
+line-height: 23px;
+padding: 0px 0px 5px 0px!important;
+margin-top: 0px !important
+}
+
+.footernav ul { 
+margin-top: 15px !important;
+padding: 0px 10px 0px 0px;
+}	
+.footercredits p {
+font-size: 14px;
+padding: 20px 0px 5px 0px!important;
+margin-top: 0px !important
+}
+.footernav ul li a {
+font-size: 14px;
+}
+.footercredits p, .footernav ul li a:hover {
+background-color: transparent !important;
+color: #fff;
+}
+.footer-widget{
+display:none;
+}
+#kadbreadcrumbs {
+font-size: 13px!important;
+}
+.cg_gallery_rating_div_child  { 
+height: 16px !important;
+}
+.cg_gallery_rating_div_one_star_on  { 
+height: 16px !important;
+width: 16px !important;
+}
+.home_blog_title  { 
+margin: 2px!important;
+}
+.home_blog_title h4.entry-title  { 
+font-family: ff-meta-web-pro, sans-serif !important;
+font-style: italic!important; 
+font-size: 23px;
+line-height: 27px;
+color: #018e4a;
+}
+.postdate {
+background-color: #018e4a!important;
+color: #ffffff!important;
+margin-left: 8px!important;
+font-family: Fira Sans!important;
+font-weight: 700;
+font-style: italic!important; 
+padding:4px 7px 8px 8px;
+}
+.postday {
+font-weight:700!important;
+font-style: italic!important; 
+}
+.search-icon {
+color: #018e4a!important;
+font-size: 14px;
+font-weight: 700;
+font-style: italic!important; 
+}
+
+.kad-btn {
+line-height: 22px;
+font-size: 16px!important;
+}
+.widgetcontainer{
+margin: auto; width: 500px; height:500px; padding: 10px;background-color: rgba(255, 255, 255, 0.9); text-align: center;
+color:rgba(0,0,0,.54);
+font-size: 17px;
+}
+
+.mat-button{
+background-color: #018e4a!important;
+border-radius: 0px!important;
+color: #ffffff!important;
+padding: 4px 10px 8px 10px!important;
+text-align: center!important;
+font-size: 20px!important;
+height:55px;
+}
+.mat-icon-button{
+background-color: #a8a8a8!important;
+border-radius: 0px!important;
+color: #ffffff!important;
+padding: 0px 0px 14px 0px!important;
+text-align: center!important;
+font-size: 20px!important;
+}
+.mat-calendar-period-button{
+background-color: #018e4a!important;
+border-radius: 0px!important;
+color: #ffffff!important;
+padding: 0px 10px 2px 13px!important;
+text-align: center!important;
+font-size: 20px!important;
+}
+.mat-button-wrapper{
+color: #ffffff!important;
+}
+.widgetcontainer #mat-input-2 {
+line-height: 15px!important;
+}
+
+
+.fredcarousel,
+.flexslider,
+.kad-mosaic-gallery-wrapper{ 
+margin-top: 0px !important;
+margin-bottom: 20px !important
+}
+
+.cyclone_home_slider{ 
+margin-top: -20px !important;
+margin-bottom: 20px !important
+}
+
+.hometitle,
+.topbar-widgettitle{ 
+display:none;
+}
+h6{ 
+color:#018e4a;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+}
+.kt-simple-box{ 
+padding: 10px 20px 20px 20px!important;
+border: 1px solid #018e4a;
+clear:both;
+}
+
+
+.formular  { 
+margin: 0px 0px 20px 0px;
+}
+
+.formular input { 
+border: 1px solid #a7a7a7;
+padding: 11px 10px 11px 10px;
+float: left;
+margin: 0px 10px 0px 0px;
+}
+.formular input:focus { 
+border: 1px solid #018e4a;
+}
+
+input.search-query{ 
+font-size:11px !important;
+color: #212121!important;
+background:#d6d6d6!important
+}
+.form-search input { 
+font-size:11px !important;
+color: #212121!important;
+}
+.wpcf7-form { 
+border: 1px solid #ccc;
+padding: 10px 30px 30px 30px;
+}
+.wpcf7 input,
+.wpcf7 textarea,
+.wpcf7 select{ 
+border: 1px solid #a7a7a7;
+width: 68%;
+}
+.wpcf7 input:focus,
+.wpcf7 textarea:focus{ 
+border: 1px solid #018e4a;
+}
+.wpcf7 input[type="submit"],
+.wpcf7 textarea[type="submit"]{
+font-size: 18px;
+padding-left: 23px;
+}
+.select2-selection--single{ 
+border: 1px solid #a7a7a7!important;
+}
+.wpcf7 label { 
+width: 30%;
+float: left;
+margin-right: 10px;
+}
+.wpcf7 .wpcf7-form-control-wrap { 
+margin: 0px 0px 20px 0px!important;
+}
+.wpcf7 div.datenschutz{ 
+margin: 0px 3px 20px 0px;
+padding: 25px 20px 27px 20px;
+border: 1px solid #a7a7a7;
+}
+
+.wpcf7-form-control,
+.wpcf7-list-item{ 
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.wpcf7 input[type="checkbox"] {
+margin: 0px 20px 0px 0px;
+}
+.wpcf7 input.iban4feld{ 
+width: 50px!important;
+}
+.wpcf7 input.iban2feld{ 
+width: 40px!important;
+}
+.wpcf7 h3{ 
+margin-top:25px;
+}
+.topbar-widget .textwidget {
+font-size:11px !important;
+color:#212121;
+line-height:15px;
+padding-top: 9px;
+margin-right: 10px;
+}
+.topbar-widget .textwidget i{
+margin: 5px 5px 0px 0px;
+margin-top: 0px;
+color: #212121;
+float: left;
+}
+.topbar-widget .textwidget a {
+color:#212121;
+}
+.topbar-widget .textwidget a:hover {
+color:#018e4a;
+}
+.postlist{
+margin-top: 9px!important
+}
+
+
+.topbar_social ul li a i{
+height: 30px;
+width: auto;
+}
+.kad-topbar-left{
+width:40px !important;
+float:right !important;
+display:none;
+}	
+.kad-topbar-right{
+width:100% !important;
+padding:1px 0px 0px 0px;
+height: 35px;
+
+}
+.topbar-widgetcontent{
+float:left;
+margin:0px;
+}
+
+.widget-3.topbar-widgetcontent{
+float:left !important;
+}
+
+.widget-7.topbar-widgetcontent,
+.widget-8.topbar-widgetcontent,
+.widget-9.topbar-widgetcontent,
+.widget-10.topbar-widgetcontent{
+float:right;
+}
+.panel-heading:hover{
+background: #008545!important;
+color: #fff;
+}
+
+
+#accordionnamegut .panel-heading,
+#accordionnamegut2 .panel-heading{
+background: #738f2a!important;
+color: #fff;
+}
+#accordionnamegut .panel-heading:hover,
+#accordionnamegut2 .panel-heading:hover{
+background: #6c8824!important;
+}
+#accordionnamegut .accordion-toggle,
+#accordionnamegut .panel-body,
+#accordionnamegut2 .accordion-toggle,
+#accordionnamegut2 .panel-body{
+border-color: #738f2a!important;
+}
+
+
+
+#accordionnameguenstig .panel-heading, 
+#accordionnameguenstig2 .panel-heading,
+#accordionnametages .panel-heading,
+#accordionnametages2 .panel-heading{
+background: #a0c51f!important;
+color: #fff;
+}
+#accordionnameguenstig .panel-heading:hover,
+#accordionnameguenstig2 .panel-heading:hover,
+#accordionnametages .panel-heading:hover,
+#accordionnametages2 .panel-heading:hover{
+background: #95b919!important;
+}
+#accordionnameguenstig .accordion-toggle,
+#accordionnameguenstig .panel-body,
+#accordionnameguenstig2 .accordion-toggle,
+#accordionnameguenstig2 .panel-body,
+#accordionnametages .accordion-toggle,
+#accordionnametages .panel-body,
+#accordionnametages2 .accordion-toggle,
+#accordionnametages2 .panel-body{
+border-color: #a0c51f!important;
+}
+
+
+#accordionnamegoldrichtig .panel-heading,
+#accordionnamegoldrichtig2 .panel-heading,
+#accordionnameabo .panel-heading,
+#accordionnameabo2 .panel-heading{
+background: #f49912!important;
+color: #fff;
+}
+#accordionnamegoldrichtig .panel-heading:hover,
+#accordionnamegoldrichtig2 .panel-heading:hover,
+#accordionnameabo .panel-heading:hover,
+#accordionnameabo2 .panel-heading:hover{
+background: #e9910e!important;
+}
+#accordionnamegoldrichtig .accordion-toggle,
+#accordionnamegoldrichtig .panel-body,
+#accordionnamegoldrichtig2 .accordion-toggle,
+#accordionnamegoldrichtig2 .panel-body,
+#accordionnameabo .accordion-toggle,
+#accordionnameabo .panel-body,
+#accordionnameabo2 .accordion-toggle,
+#accordionnameabo2 .panel-body{
+border-color: #f49912!important;
+}
+
+#accordionnamezeit .panel-heading,
+#accordionnamezeit2 .panel-heading{
+background: #fbbb1f!important;
+color: #fff;
+}
+
+#accordionnamezeit .panel-heading:hover,
+#accordionnamezeit2 .panel-heading:hover{
+background: #e7a70a!important;
+}
+
+#accordionnamezeit .accordion-toggle,
+#accordionnamezeit .panel-body,
+#accordionnamezeit2 .accordion-toggle,
+#accordionnamezeit2 .panel-body{
+border-color: #fbbb1f!important;
+}
+
+
+
+#accordionnameNachtverkehr .panel-heading,
+#accordionnameNachtverkehrFeiertage .panel-heading {
+background: #204066!important;
+color: #fff;
+}
+#accordionnameNachtverkehr .panel-heading:hover,
+#accordionnameNachtverkehrFeiertage .panel-heading:hover{
+background: #173456!important;
+}
+#accordionnameNachtverkehr .accordion-toggle,
+#accordionnameNachtverkehr .panel-body,
+#accordionnameNachtverkehrFeiertage .accordion-toggle,
+#accordionnameNachtverkehrFeiertage .panel-body  {
+border-color: #204066!important;
+}
+
+
+span.strecke{
+font-weight: 300;
+color: #fff; /* Fallback for older browsers */
+color: rgba(255, 255, 255, 0.7);
+}
+span.pfeile{
+width: 26px;
+height: 16px;
+background-image: url(img/Pfeile.png);
+background-size: 26px 16px;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.7;
+margin: 0px 0px 0px 0px;
+display: inline-block;
+}
+
+span.tram{
+width: 26px;
+height: 26px;
+background-image: url(img/Tram.png);
+background-size: 26px 26px;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px 10px 0px 0px;
+display: block;
+float: left;
+background-color: #008545;
+}
+span.linie1, span.linie2, span.linie3, span.linie4, span.linie5, span.linie6, span.linie8, span.linie9, span.linie10,
+span.linie51, span.linie52, span.linie53, span.linie54, span.linie55, span.linie56, span.linie57, span.linie58, span.linie59, span.linie61, span.linie69, span.linie71, span.linie72, span.linie73, span.linie66, span.linie41, span.linie42, span.linie43, span.linie44, span.linie46, span.linie49, span.linie77, span.linie13, span.linie40, span.sev  {
+width: 24px;
+height: 24px;
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px 10px 0px 0px;
+display: block;
+float: left;
+}
+span.linieN1, span.linieN2, span.linieN3, span.linieN4, span.linieN5, span.linieN6, span.linieN7, span.linieN8, span.linieN9  {
+width: 28px;
+height: 24px;
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px 10px 0px 0px;
+display: block;
+float: left;
+}
+
+p span.linie1, p span.linie2, p span.linie3, p span.linie4, p span.linie5, p span.linie6, p span.linie8, p span.linie9, p span.linie10,
+p span.linie51, p span.linie52, p span.linie53, p span.linie54, p span.linie55, p span.linie56, p span.linie57, p span.linie58, p span.linie59, p span.linie61, p span.linie69, p span.linie71, p span.linie72, p span.linie73, p span.linie66, p span.linie41, p span.linie42, p span.linie43, p span.linie44, p span.linie49, p span.linie46, p span.linie77,  p span.linie40, p span.linie13, p span.sev  {
+width: 24px;
+height: 24px;
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px 5px -5px 0px;
+display: inline-block;
+float: none;
+}
+p span.linieN1, p span.linieN2, p span.linieN3, p span.linieN4, p span.linieN5, p span.linieN6, p span.linieN7, p span.linieN8, p span.linieN9  {
+width: 28px;
+height: 24px;
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px 5px -5px 0px;
+display: inline-block;
+float: none;
+}
+
+
+span.linie1{
+background-image: url(img/signet1.png);
+}
+span.linie2{
+background-image: url(img/signet2.png);
+}
+span.linie3{
+background-image: url(img/signet3.png);
+}
+span.linie4{
+background-image: url(img/signet4.png);
+}
+span.linie5{
+background-image: url(img/signet5.png);
+}
+span.linie6{
+background-image: url(img/signet6.png);
+}
+span.linie8{
+background-image: url(img/signet8.png);
+}
+span.linie9{
+background-image: url(img/signet9.png);
+}
+span.linie10{
+background-image: url(img/signet10.png);
+}
+span.linie51{
+background-image: url(img/signet51.png);
+}
+span.linie52{
+background-image: url(img/signet52.png);
+}
+span.linie53{
+background-image: url(img/signet53.png);
+}
+span.linie54{
+background-image: url(img/signet54.png);
+}
+span.linie55{
+background-image: url(img/signet55.png);
+}
+span.linie56{
+background-image: url(img/signet56.png);
+}
+span.linie57{
+background-image: url(img/signet57.png);
+}
+span.linie58{
+background-image: url(img/signet58.png);
+}
+span.linie59{
+background-image: url(img/signet59.png);
+}
+span.linie61{
+background-image: url(img/signet61.png);
+}
+span.linie69{
+background-image: url(img/signet69.png);
+}
+span.linie71{
+background-image: url(img/signet71.png);
+}
+span.linie72{
+background-image: url(img/signet72.png);
+}
+span.linie73{
+background-image: url(img/signet73.png);
+}
+span.linie66{
+background-image: url(img/L66.png);
+}
+span.linieN1{
+background-image: url(img/N1.png);
+}
+span.linieN2{
+background-image: url(img/N2.png);
+}
+span.linieN3{
+background-image: url(img/N3.png);
+}
+span.linieN4{
+background-image: url(img/N4.png);
+}
+span.linieN5{
+background-image: url(img/N5.png);
+}
+span.linieN6{
+background-image: url(img/N6.png);
+}
+span.linieN7{
+background-image: url(img/N7.png);
+}
+span.linieN8{
+background-image: url(img/N8.png);
+}
+span.linieN9{
+background-image: url(img/N9.png);
+}
+span.linie41{
+background-image: url(img/L41.png);
+}
+span.linie42{
+background-image: url(img/L42.png);
+}
+span.linie43{
+background-image: url(img/L43.png);
+}
+span.linie44{
+background-image: url(img/L44.png);
+}
+span.linie46{
+background-image: url(img/L46.png);
+}
+span.linie49{
+background-image: url(img/L49.png);
+}
+span.linie77{
+background-image: url(img/L77.png);
+}
+span.linie13{
+background-image: url(img/L13.png);
+}
+span.linie40{
+background-image: url(img/L40.png);
+}
+span.sev{
+background-image: url(img/sev.png);
+}
+span.baustelle {
+width: 27px;
+height: 24px;
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px 10px 0px 0px;
+display: block;
+float: left;
+background-image: url(img/baustelle.png);
+background-repeat: repeat-x;
+}
+.single-cpt_9367 ul.sf-menu li.menu-fahrinfo,
+.single-post ul.sf-menu li.menu-aktuelles,
+#nav-main ul.sf-menu li:hover,
+#nav-main ul.sf-menu li.current_page_parent,
+#nav-main ul.sf-menu li.current_page_ancestor{
+background: #00723b!important;
+}
+.single-cpt_9367 ul.sf-menu li ul li.menu-verkehrsmeldungen,
+#nav-main ul.sf-menu ul li:hover,
+#nav-main ul.sf-menu ul li a:hover,
+#nav-main ul.sf-menu ul li.current_page_item a{
+background: #018e4a!important;
+}
+
+#nav-main .sf-menu li.menu-item-6065 ul ul,
+#nav-main .sf-menu li.menu-item-4236 ul ul {
+right: 100%;
+left: auto;
+}
+#nav-main .sf-menu li.menu-item-6065 .sf-dropdown-submenu>a:after,
+#nav-main .sf-menu li.menu-item-4236 .sf-dropdown-submenu>a:after {
+display:none;
+}
+#nav-main .sf-menu li.menu-item-6065 .sf-dropdown-submenu>a:before,
+#nav-main .sf-menu li.menu-item-4236 .sf-dropdown-submenu>a:before {
+left: 0;
+transform: rotate(180deg);
+padding-left: 5px;
+}
+#nav-main .sf-menu li.menu-item-6065 ul a.sf-with-ul:before,
+#nav-main .sf-menu li.menu-item-4236 ul a.sf-with-ul:before {
+content:"\e3b5";
+float:left;
+font-family:virtue_icons;
+speak:none;
+font-style:normal;
+font-weight:400;
+font-variant:normal;
+text-transform:none;
+line-height:1;
+vertical-align:middle;
+-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+margin-top: 1px;
+}
+
+.embed-container {
+position: relative; 
+padding-bottom: 56.25%; /* ratio 16x9 */
+height: 0; 
+overflow: hidden; 
+width: 100%;
+height: auto;
+margin-bottom: 50px;
+}
+.embed-container iframe {
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; 
+}
+.lyte-wrapper{max-width:100% !important;}
+.lL{max-width:100% !important;}
+
+/* ratio 4x3 */
+.embed-container.ratio4x3 {
+padding-bottom: 75%;
+}
+
+.fahrplanauskunftembed {
+position: relative; 
+padding-bottom: 56.25%; /* ratio 16x9 */
+height: 0; 
+overflow: hidden; 
+width: 100%;
+height: 2000px; 
+}
+
+.fahrplanauskunftembed iframe {
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 2000px; 
+}
+
+/* ratio 4x3 */
+.fahrplanauskunftembed.ratio4x3 {
+padding-bottom: 75%;
+}
+
+td {
+vertical-align:top;
+}
+#accordionnameverkehrsmeldungen{
+margin-top: 9px;
+}
+#accordionnameverkehrsmeldungen tr,
+#accordionnameverkehrsmeldungen td{
+background-color: transparent;
+}
+
+
+
+
+
+.kad-header-left {width:15%;}
+.kad-header-right {width:85%;}
+
+
+.sf-menu ul.dropdown li a{
+text-transform: none;
+}
+
+
+table {
+margin: 10px 0 0 0;
+}
+
+.tablepress th {
+background-color: #018e4a !important;
+color: #fff !important;
+padding: 5px 10px 8px 20px !important;
+margin: 0px 0 1px 0!important;
+}
+
+.tablepress td {
+padding: 10px 10px 14px 20px !important;
+}
+
+.tablepress caption {
+display:none;
+}
+ul.fahrplandownload {
+list-style-type: none!important;
+margin: 0px 0px 20px 0px;
+padding: 0;
+}
+
+ul.fahrplandownload li{
+list-style-type: none!important;
+margin: 0px 0px 8px 0px;
+padding: 0px 0px 11px 0px;
+border-bottom: 1px solid #cccccc;
+}
+ul.fahrplandownload li a:before{
+content:"\e4e2"!important;
+margin-right: 10px;
+font-family: virtue_icons!important;
+font-size: 115%;
+color: red;
+}
+
+
+
+
+.staff_item{
+min-height: 300px;
+}
+
+.panel-heading{
+background-color: #018e4a !important;
+color: #ffffff!important;
+}
+.panel-heading h5{
+color: #ffffff!important;
+}
+.panel-heading .icon-plus{
+color: #ffffff!important;
+}
+.panel-body {
+border: 1px solid #018e4a !important;
+}
+.panel-heading .accordion-toggle .icon-minus {
+color: #fff;
+}
+.embed-container {
+position: relative; 
+padding-bottom: 56.25%; /* ratio 16x9 */
+height: 0; 
+overflow: hidden; 
+width: 100%;
+height: auto;
+margin-bottom: 50px;
+}
+.embed-container iframe {
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; 
+}
+/* ratio 4x3 */
+.embed-container.ratio4x3 {
+padding-bottom: 75%;
+}
+.post-single-img{
+margin: 25px 0px 0px 0px!important;
+}
+#accordionnameTagverkehr .lg-kad-btn,
+#accordionnameNachtverkehr .lg-kad-btn,
+#accordionnameNachtverkehrFeiertage .lg-kad-btn{
+width: 100%!important;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+#kad-mobile-banner-sticky-wrapper {
+display: block;
+} 
+#kad-mobile-banner { 
+display: block; 
+z-index: 100000;
+} 
+#kad-banner-sticky-wrapper, #kad-banner { 
+display: none; 
+}
+#logo{
+width: 100% !important;
+}
+
+.widget-4.topbar-widgetcontent { 
+float:left !important;
+}
+
+.topbar-widgetcontent { 
+border:none !important;
+}
+
+.kad-header-left {
+width:100%!important;
+margin-top: 20px!important;
+}
+.kad-header-right {
+width:0%!important;
+}
+
+.mobile-header-container {
+padding-top: 8px!important;
+}
+
+.kad-mobile-nav{
+margin-bottom: 20px !important;
+margin-top: 10px !important;
+}
+.mh-nav-trigger-case{
+font-size: 30px;
+height: 100px;
+top: 0px;
+right:0px;
+}
+.collapsed{
+color: #ffffff !important;
+}
+.kad-mobile-logo{
+margin-left:10px !important;
+}
+.mobile-logo-inner img{
+height: 48px;
+}
+.kad-mobile-nav ul {
+
+}
+
+.kad-mobile-nav li{
+border-bottom: 1px solid #0e6b3e!important;
+}
+
+.kad-mobile-nav li ul li{
+border-top: 1px solid #3f843f!important;
+border-bottom: 0px solid #3f843f!important;
+background: #095f36!important;
+margin-top:1px;
+margin: 0px;
+}
+.kad-mobile-nav li ul {
+margin-bottom:20px!important;
+padding: 0px;
+}
+
+.kad-mobile-nav li ul li ul li{
+border-top: 1px solid #3f843f!important;
+border-bottom: 0px solid #3f843f!important;
+background: #095f36!important;
+margin-top:1px;
+margin: 0px;
+}
+.kad-mobile-nav li ul li ul {
+margin-bottom:0px!important;
+padding: 0px;
+}
+
+.post-single-img{
+max-width: 100%;
+height: auto;
+float: none;
+overflow: hidden;
+margin: 0px 0px 20px 0px;
+}
+
+img.alignleft,
+img.alignright,
+img.alignnone,
+.wp-caption,
+.wp-caption  img,
+.post-excerpt-image  {
+width: 100% !important;
+height: auto !important;
+float: none !important;
+margin: 0px 0px 20px 0px !important;
+}
+
+.cg_show {
+width: 100% !important;
+height: 260px !important;
+margin: 0px 0px 20px 0px !important;
+}
+.cg_center {
+width: 100% !important;
+height: 40px !important;
+}
+.cg_gallery_rating_div_count {
+font-size: 18px !important;
+}
+
+.footer-widget{
+display:block!important;
+position: fixed;
+top: 19px;
+right:60px;
+z-index: 100000;
+}
+.footer-widget a{
+padding: 7px 9px 8px 9px;
+}
+
+.kt-intrinsic-container,
+.kt-intrinsic-container img{
+width: 100%!important;
+max-width:100%!important;
+}
+.footerclass  { 
+background: #018e4a !important;
+padding: 15px 0px 0px 0px!important;
+}
+.footerclass .footernav  { 
+display:none;
+}
+.footercredits  { 
+background-size: 100% !important;
+padding: 0px 0px 5px 0px!important;
+
+}
+
+.footercredits p, .footernav ul li a {
+font-size: 13px!important;
+padding: 0px 0px 0px 0px !important;
+text-align: center;
+}
+.footercredits p {
+margin-top: 0px !important
+}
+.footernav ul {
+display:none;
+position: relative;
+float: left;
+left: 30%;
+margin: 0;
+padding: 0;
+margin-top: 60px !important;
+}
+
+.footernav ul li{
+position: relative;
+float: left;
+right: 30%;
+margin: 0px 5px;
+list-style: none;
+}
+
+.footernav ul li a {
+font-size: 13px!important;
+padding: 0px 0px 0px 0px !important;
+}
+
+
+
+
+
+
+
+#sctabunternehmensprofil0 table td {
+width:100% !important;
+display: block;
+}
+body.aktuelles h2.entry-title  { 
+font-size: 23px!important;
+line-height: 27px!important;
+}
+
+.home_blog  { 
+padding-top: 0px!important;
+}
+.home_blog_title  { 
+margin-left: 14px!important;
+}
+
+.postdate{ 
+font-family: Roboto!important;
+}
+	
+	
+.wpcf7-form { 
+border: 1px solid #ccc;
+padding: 0px 20px 10px 20px;
+}
+.wpcf7 input,
+.wpcf7 textarea,
+.wpcf7 select{ 
+border: 1px solid #a7a7a7;
+width: 100%;
+}
+.wpcf7 select{ 
+padding-left: 10px!important;
+}
+
+.wpcf7 input:focus,
+.wpcf7 textarea:focus{ 
+border: 1px solid #018e4a;
+}
+.wpcf7 input[type="submit"],
+.wpcf7 textarea[type="submit"]{
+font-size: 18px;
+padding-left: 23px;
+}
+.select2-selection--single{ 
+border: 1px solid #a7a7a7!important;
+}
+.wpcf7 label { 
+width: 1000%;
+float: none;
+margin-right: 0px;
+}
+.wpcf7 input.iban4feld{ 
+width: 47px!important;
+}
+.wpcf7 input.iban2feld{ 
+width: 38px!important;
+}
+	
+.mobilewidgetwrapper{
+width: 100%; 
+margin: -15px 0px 0px 0px;
+height: 525px; 
+padding: 18px 20px 28px 20px;
+background: url("https://www.mvbnet.de//files/2020/10/221020PG_MVB9_bearb_1920_1800.jpg"); 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; 
+}
+
+.mobilewidgetcontainer{
+margin: auto; 
+height: 480px; 
+padding: 10px 10px 20px 10px;
+background-color: rgba(255, 255, 255, 0.85); 
+text-align: center;
+color: rgba(0,0,0,.54)!important;
+}
+.mobilewidgetcontainer .mat-tab-body{
+padding: 0px 0px 0px 0px!important;
+}
+.mobilewidgetcontainer .mat-button{
+background-color: #018e4a!important;
+border-radius: 0px!important;
+color: #ffffff!important;
+padding: 10px 10px 12px 10px!important;
+text-align: center!important;
+font-size: 17px!important;
+}
+
+
+.mobilewidgetcontainer .datetime-edit-field,
+.mobilewidgetcontainer .mat-input-element,
+.mobilewidgetcontainer input,
+.mobilewidgetcontainer input:focus,
+.mobilewidgetcontainer input[type="date"],
+.mobilewidgetcontainer input[type="datetime"],
+.mobilewidgetcontainer input[type="datetime-local"],
+.mobilewidgetcontainer input[type="text"],
+.mobilewidgetcontainer input[type="time"],
+.mobilewidgetcontainer select:focus,
+.mobilewidgetcontainer textarea {
+font-size: 16px;
+padding: 0px 0px 0px 0px;
+}
+.mobilewidgetcontainer .mat-icon{
+padding: 0px 0px 0px 0px;
+margin-right: 5px;
+display:block;
+width: 40px;
+}
+.mobilewidgetcontainer .mat-icon-button{
+background-color: #a8a8a8!important;
+border-radius: 0px!important;
+color: #ffffff!important;
+padding: 0px 0px 0px 5px!important;
+text-align: center!important;
+font-size: 20px!important;
+}
+.mobilewidgetcontainer .mat-icon svg{
+width: 40px;
+}
+
+}
